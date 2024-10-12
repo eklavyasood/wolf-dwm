@@ -1,7 +1,8 @@
 #+title: wolf-dwm
 #+author: Eklavya Sood
 
+- this is a work in progres
+
 * wolf-dwm
 my personal dwm configuration
 
-* this is a work in progress.
