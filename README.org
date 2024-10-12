@@ -3,6 +3,5 @@
 
 - this is a work in progres
 
-* wolf-dwm
 my personal dwm configuration
 
