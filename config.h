@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "7", "8", "" };
+static const char *tags[] = { "term", "www", "net", "ide", "file", "what", "7", "8", "spot" };
 
 /* window rules (which tag to open in) */
 static const Rule rules[] = {
@@ -62,7 +62,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "kitty", NULL };
 static const char *discordcmd[]  = { "discord", NULL };
 static const char *spotcmd[]  = { "spotify", NULL };
 static const char *emotecmd[]  = { "emote", NULL };
