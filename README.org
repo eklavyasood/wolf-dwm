@@ -5,3 +5,5 @@ my personal dwm configuration
 
 - this is a work in progress
 - autostart patch implemented, autostart.sh to change autostart programs
+- fullgaps patch implemented
+
