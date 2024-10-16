@@ -1,9 +1,13 @@
-#+title: wolf-dwm
 #+author: Eklavya Sood
 
-my personal dwm configuration
+* my personal dwm configuration
 
 - this is a work in progress
-- autostart patch implemented, autostart.sh to change autostart programs
-- fullgaps patch implemented
 
+* patches implemented
+** dwm-autostart
+- modify autostart.sh to control
+** dwm-fullgaps
+- M+ to increase window gaps
+- M- to decrease window gaps
+- M= to reset gaps to default
