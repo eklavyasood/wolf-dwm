@@ -102,9 +102,9 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_d,      spawn,          {.v = discordcmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = spotcmd } },
 	{ MODKEY,                       XK_comma,  spawn,          {.v = emotecmd } },
-	{ MODKEY,                       XK_F12,    spawn,          SHCMD("$HOME/dotfiles/.settings/screenshot.sh") },
+	// { MODKEY,                       XK_F12,    spawn,          SHCMD("$HOME/dotfiles/.settings/screenshot.sh") },
 	{ MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("$HOME/dotfiles/.settings/filemanager.sh") },
-	{ MODKEY,                       XK_Print,      spawn,      SHCMD("$HOME/dotfiles/scripts/xscreenshot.sh")},
+	{ MODKEY,                       XK_F12,      spawn,      SHCMD("$HOME/dotfiles/scripts/xscreenshot.sh")},
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
