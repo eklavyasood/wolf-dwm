@@ -2,6 +2,8 @@
 
 * my personal dwm configuration
 
+[[./wolf-dwm.png]]
+
 - this is a work in progress
 
 ** patches implemented
