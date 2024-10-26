@@ -68,6 +68,8 @@ static const char *termcmd[]  = { "kitty", NULL };
 static const char *discordcmd[]  = { "vesktop", NULL };
 static const char *spotcmd[]  = { "spotify", NULL };
 static const char *emotecmd[]  = { "emote", NULL };
+static const char *volup[] = { "pw-volume", "change", "+5%", NULL };
+static const char *voldown[] = { "pw-volume", "change", "-5%", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -102,9 +104,11 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_d,      spawn,          {.v = discordcmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = spotcmd } },
 	{ MODKEY,                       XK_comma,  spawn,          {.v = emotecmd } },
-	// { MODKEY,                       XK_F12,    spawn,          SHCMD("$HOME/dotfiles/.settings/screenshot.sh") },
+	{ MODKEY,                       XK_Prior,  spawn,          {.v = voldown } },
+	{ MODKEY,                       XK_Next,   spawn,          {.v = volup } },
+//{ MODKEY,                       XK_F12,    spawn,          SHCMD("$HOME/dotfiles/.settings/screenshot.sh") },
 	{ MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("$HOME/dotfiles/.settings/filemanager.sh") },
-	{ MODKEY,                       XK_F12,      spawn,      SHCMD("$HOME/dotfiles/scripts/xscreenshot.sh")},
+	{ MODKEY,                       XK_F12,    spawn,          SHCMD("$HOME/dotfiles/scripts/xscreenshot.sh")},
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
