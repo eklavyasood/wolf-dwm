@@ -1,5 +1,5 @@
 # feh for wallpaper
-feh --bg-scale ~/wallpaper/bleak_cabin.png
+feh --bg-scale ~/.dotfiles/wallpapers/bleak_cabin.png
 
 # picom compositor for transparency and other window effects
 picom &
